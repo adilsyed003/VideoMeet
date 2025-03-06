@@ -87,7 +87,7 @@ export function ProfileForm() {
             <FormItem>
               <FormLabel>Username</FormLabel>
               <FormControl>
-                <Input type="" placeholder="adil.." {...field} />
+                <Input type="" placeholder="" {...field} />
               </FormControl>
               <FormDescription>Your name.</FormDescription>
               <FormMessage />
@@ -103,7 +103,7 @@ export function ProfileForm() {
               <FormControl>
                 <Input
                   type="number"
-                  placeholder="1"
+                  placeholder=""
                   {...field}
                   onChange={(e) => field.onChange(Number(e.target.value))}
                 />
